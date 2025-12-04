@@ -1,0 +1,47 @@
+ .category-header {
+     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+     color: white;
+     padding: 15px 20px;
+     border-radius: 8px;
+     margin-bottom: 15px;
+     font-size: 1.2em;
+     font-weight: 600;
+ }
+
+ .notes-grid {
+     display: grid;
+     gap: 15px;
+ }
+
+ .note-card {
+     background: #f8f9fa;
+     border: 2px solid #e0e0e0;
+     border-radius: 8px;
+     padding: 15px;
+     cursor: pointer;
+     transition: all 0.3s;
+ }
+
+ .note-card:hover {
+     transform: translateY(-2px);
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     border-color: #667eea;
+ }
+
+ .note-title {
+     font-weight: 600;
+     font-size: 1.1em;
+     color: #333;
+     margin-bottom: 8px;
+ }
+
+ .note-preview {
+     color: #666;
+     font-size: 0.95em;
+ }
+
+ .empty-state {
+     text-align: center;
+     padding: 40px;
+     color: #999;
+ }
